@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>CodEdu-Dashboard</title> 
+			<link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com">
+			<link rel="stylesheet" href="dash.css">
+			<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+			<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+		</head>
+		<body>
+			<header id="container">
+				<div class="dashPlate">
+					<ion-icon name="school-outline"></ion-icon><h1>ACS</h1><br>
+					<h3>Coding Club</h3>
+				</div>
+				<div class="dashPlate" id="dashTest">
+					<ion-icon name="home-outline"></ion-icon><input type='button' value='Dashboard' id="example" >
+				</div>
+				<div class="dashPlate">
+					<ion-icon name="notifications-outline"></ion-icon><input type='button' value='Notification' id="inputT" >
+				</div>
+				<div class="dashPlate">
+					<ion-icon name="analytics-outline"></ion-icon><input type='button' value='Videos' id="example" disabled>
+				</div>
+				<div class="dashPlate">
+					<ion-icon name="happy-outline"></ion-icon><input type='button' value='likes' id="enjoy" >
+				</div>
+				<div class="dashPlate">
+					<ion-icon name="wallet-outline"></ion-icon><input type='button' value='Wallet' id="token" >
+				</div>
+				<div id="man">
+					<div class="dashPlate">
+						<ion-icon name="log-out-outline"></ion-icon><input type='button' value='Logout' id="input4" >
+					</div>
+					<div class="dashPlate">
+						<ion-icon name="contrast-outline"></ion-icon><input type='button' value='Dark Mode' id="input5" >
+						<div class="darkBtn">
+							<div id="darkTheme"></div>
+						</div>
+					</div>
+					<div>
+						<img src="computer1.png" alt="iamge" style="width:100px; height: 70px; bottom:0px; position:fixed;">
+					</div>
+				</div>
+			</header>
+			<section>
+				<div id="top">
+					<div class="menu">
+						<ion-icon name="menu-outline"></ion-icon>
+					</div>
+					<input type='search' placeholder='Search Here...' id="search">
+					<div class="login">
+						<img src="login2.png" alt=" " >
+					</div>
+					<div class="login-drop">
+						<div class="login">
+							<img src="login2.png" alt=" " >
+						</div>
+						<h3 onclick="window.close()";>Sign Out</h3>
+						<h3 id="userGrade"></h3>
+						<h3 id="idNumber"></h3>
+					</div>
+				</div>
+
+				<div class="dashAre">
+					<div class="dashB">
+					<div class="contain" onclick="window.open('html_tutorial.pdf' ,'_blank')";>
+						<div class="sell">
+						<div class="image">
+							<img src='html.png' alt='html'>
+						</div>
+						<div class="infor">
+							<h2>Learn HTML</h2>
+						</div>
+						</div>
+					</div>
+					</div>
+
+					<div class="dashB">
+					<div class="contain" onclick="window.open('css_tutorial.pdf' ,'_blank')";>
+						<div class="sell">
+						<div class="image">
+							<img src='css.png' alt='css'>
+						</div>
+						<div class="infor">
+							<h2>Learn CSS</h2>
+						</div>
+						</div>
+					</div>
+					</div>
+
+					<div class="dashB">
+					<div class="contain" onclick="window.open('javaScript.pdf' ,'_blank')";>
+						<div class="sell">
+						<div class="image">
+							<img src='js.png' alt='javascript'>
+						</div>
+						<div class="infor">
+							<h2>Learn JavaScript</h2>
+						</div>
+						</div>
+					</div>
+					</div>
+
+					<div class="dashB">
+					<div class="contain" onclick="window.open('mysql_tutorial.pdf' ,'_blank')";>
+						<div class="sell">
+						<div class="image">
+							<img src='mysqlM.png' alt='mySQL'>
+						</div>
+						<div class="infor">
+							<h2>Learn MySql</h2>
+						</div>
+						</div>
+					</div>
+					</div>
+
+					<div class="dashB">
+					<div class="contain" onclick="window.open('ethicalhacker.pdf' ,'_blank')";>
+						<div class="sell">
+							<div class="image">
+								<img src='ethical.png' alt='hacking'>
+							</div>
+							<div class="infor">
+								<h2>Learn Ethical Hacking</h2>
+							</div>
+						</div>
+					</div>
+					</div>
+
+					<div class="dashB">
+					<div class="contain" onclick="window.open('python1.pdf' ,'_blank')";>
+						<div class="sell">
+						<div class="image">
+							<img src='python.png' alt='javascript'>
+						</div>
+						<div class="infor">
+							<h2>Learn Python</h2>
+						</div>
+						</div>
+					</div>
+					</div>
+
+					<div class="dashB">
+					<div class="contain" onclick="window.open('php_tutorial.pdf' ,'_blank')";>
+						<div class="sell">
+						<div class="image">
+							<img src='php.png' alt='mySQL'>
+						</div>
+						<div class="infor">
+							<h2>Learn PHP</h2>
+						</div>
+						</div>
+					</div>
+					</div>
+
+					<div class="dashB">
+					<div class="contain" onclick="window.open('react1.pdf' ,'_blank')";>
+						<div class="sell">
+						<div class="image">
+							<img src='reactp.png' alt='react'>
+						</div>
+						<div class="infor">
+							<h2>Learn React</h2>
+						</div>
+						</div>
+					</div>
+					</div>
+				</div>
+
+
+
+				<div class="notifi">
+					<h2>Read Your Message</h2>
+					<div class="messa">
+						<input type='radio' >
+							<p>Log in was successfull. Enjoy more lessons from your repository.</p>
+							<p id="time">Time here</p>
+							<div><ion-icon name="trash-outline"></ion-icon></div>
+					</div>
+					<div class="messa">
+						<input type='radio' >
+						<p>You just logged out. Do come back again for more lessons.</p>
+						<p id="timeA">Time here</p>
+						<div><ion-icon name="trash-outline"></ion-icon></div>
+					</div>
+					<div class="messa">
+						<input type='radio' >
+						<p>You just logged out. Do come back again for more lessons.</p>
+						<p id="timeB">Time here</p>
+						<div><ion-icon name="trash-outline"></ion-icon></div>
+					</div>
+				</div>
+				<div class="kwame">
+					<div class="wallet">
+						<img src="error1.png" alt="error">
+						<h3>Contact your Administrator for more credit</h3><br>
+						<p>Tokens in the wallet help you access countless contemporary programming languages</h3>
+						<button id="walletBtn">Ok</button>
+					</div>
+				</div><br>
+				<footer>
+					<div>
+						<em>Apex Community School</em><br>
+						<em>Powered by Sir Simon Annobil / Copyright @ 2023</em>
+						
+					</div>
+				</footer>
+
+				<div class="nana">
+					<div class="likes">
+						<ion-icon name="thumbs-up-outline" id="likeMe"></ion-icon>
+						<h2>Do you Like this?</h2>
+					<div class="likesBtn">
+						<ion-icon name="heart-outline"></ion-icon>
+						<ion-icon name="heart-outline"></ion-icon>
+						<ion-icon name="heart-outline"></ion-icon>
+						<ion-icon name="heart-outline"></ion-icon>
+						<ion-icon name="heart-outline"></ion-icon>
+						<div>
+						<button id="likeAc">OK</button>
+						<h3 id="likeMessa">...</h3>
+					</div>
+				</div>
+				<br>
+			</section>
+
+			<div class="logoutPrompt">
+				<div>
+					<div class="float">
+						<img src="new4.png" alt="logout " >
+							<h2 id=" "></h2>
+							<h3>Do you really want to log out?<h3>
+					</div>
+					<input type='button' value='Yes' id="yes">
+					<input type='button' value='No' id="no">
+				</div>
+			</div>
+			<script>
+
+				let dashArea=document.querySelector('.dashAre');
+				let dashBtn=document.querySelector('#dashTest');
+				let notifi=document.querySelector('.notifi');
+				let notiBtn=document.querySelector('#inputT');
+
+				dashBtn.addEventListener('click', function(){
+				dashArea.style.display='flex';
+				notifi.style.display='none';
+				});
+
+				notiBtn.addEventListener('click', function(){
+				notifi.style.display='block';
+				dashArea.style.display="none";
+				});
+
+				let time=new Date();
+				let timeA=new Date();
+				let timeB=new Date();
+
+				document.getElementById('time').innerHTML=time;
+				document.getElementById('timeA').innerHTML=timeA;
+				document.getElementById('timeB').innerHTML=timeB;
+
+				const loginDrop=document.querySelector('.login-drop');
+				const login=document.querySelector('.login');
+
+				login.addEventListener('click', function(){
+				if(loginDrop.style.transform=="translateY(-500px)"){
+				loginDrop.style.transform="translateY(10px)";
+				loginDrop.style.opacity="1";
+				}else{
+				loginDrop.style.transform="translateY(-500px)";
+				loginDrop.style.opacity="0";
+				}});
+
+				const likee=document.querySelector(".nana");
+				const likeBut=document.querySelector('#likeAc');
+				const notifLike=document.querySelector('#enjoy');
+
+				notifLike.addEventListener('click', function(){
+				likee.style.display='flex';
+				});
+
+				likeBut.addEventListener('click', function(){
+				likee.style.display='none';
+				});
+
+				const walletP=document.querySelector('#token');
+				const kwame=document.querySelector('.kwame');
+				const walletBtn=document.querySelector('#walletBtn');
+
+				walletP.addEventListener('click', function(){
+				kwame.style.display='flex';
+				});
+				walletBtn.addEventListener('click', function(){
+				kwame.style.display='none';
+				});
+
+				setTimeout(function(){
+				kwame.style.display='none';
+				},3000);
+
+				/* logout code from the input */
+				const logoutPrompt=document.querySelector('.logoutPrompt');
+				const logFloat=document.querySelector('.float');
+				const inputFr=document.querySelector('#input4');
+
+				let myYes=document.querySelector('#yes');
+				let myNo=document.querySelector('#no');
+
+				inputFr.addEventListener('click', function(){
+				logoutPrompt.style.display='flex';
+				logFloat.style.transform='translateY(0px)';
+				logFloat.style.opacity='1';
+				});
+
+				myYes.addEventListener('click', function(){
+				window.close();
+				window.location.reload();
+				});
+
+				myNo.addEventListener('click', function(){
+				logoutPrompt.style.display='none';
+				logFloat.style.transform='translateY(-1000px)';
+				logFloat.style.opacity='0';
+				});
+
+
+				/* Dark theme code from  for dashboard */
+
+				const darkTheme=document.querySelector('#darkTheme');
+				const darkBtn=document.querySelector('.darkBtn');
+				const header=document.querySelector('header');
+				const section=document.querySelector('section');
+
+				darkBtn.addEventListener('click', function(){
+				if(darkTheme.style.transform==='translateX(0px)'){
+					darkTheme.style.transform='translateX(28px)';
+					header.style.backgroundColor='green';
+					darkBtn.style.backgroundColor='transparent';
+					section.style.backgroundColor='#999999';
+					section.style.color='black';
+				}else{
+					darkTheme.style.transform='translateX(0px)';
+					header.style.backgroundColor='#373737';
+					section.style.backgroundColor='#262626';
+					section.style.color='white';
+				}
+				});
+
+				/*Retrieve input data from storage*/
+					
+
+					 window.onload = function() {
+
+						retrieveName = localStorage.getItem('userName');
+						retrievePass = localStorage.getItem('userPassword');
+						retrieveStage = localStorage.getItem('userStage');
+
+						document.getElementById('userNam').textContent=retrieveName;
+						document.getElementById('userGrade').textContent=retrievePass;
+						document.getElementById('idNumber').textContent=retrieveStage;
+    						
+  						};
+				</script>
+	</body>
+	</html>
